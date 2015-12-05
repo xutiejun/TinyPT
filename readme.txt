@@ -1,2 +1,1 @@
-hello wolrd
-Git is free software.
+a simple tool to map a port to other host
