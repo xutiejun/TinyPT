@@ -31,6 +31,7 @@ void *ThreadWorker(void *pParam) {
 	Context *pCtx = (Context *)pParam;
 	pCtx->pWorker->Work(pCtx);
 	delete pCtx;
+    pthread_detach(pthread_self());
     return NULL;
 }
 
